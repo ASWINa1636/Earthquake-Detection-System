@@ -1,21 +1,3 @@
-/**
- * @file Earthquake_Detector_Presentation_Ready.ino
- * @version 5.3 (Presentation Final - 5s Recovery)
- * @author Gemini & Aswin Raj
- * @brief The definitive, presentation-ready earthquake detection system.
- *
- * This version is optimized for stability and clarity for the HOD presentation. It uses the
- * robust MPU6500_WE library and a clear, threshold-based detection algorithm. The SMS alert
- * system is fully functional using the correct CircuitDigest API format and supports multiple recipients.
- *
- * Changes in v5.3:
- * - Increased the recovery time to 5 seconds. The system now waits for 5 seconds of
- * calm after an earthquake before transitioning to recovery mode.
- * - Corrected a critical logic flaw where the alarm state would immediately transition to
- * recovery. The alarm now correctly persists as long as shaking continues and only
- * enters recovery after a sustained period of calm.
- */
-
 // ==================== LIBRARIES ====================
 #include <WiFi.h>
 #include <HTTPClient.h>
