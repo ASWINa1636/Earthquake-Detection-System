@@ -1,4 +1,4 @@
-# 🌍 Earthquake Detection System v5.3
+# 🌍 Earthquake Detection System
 
 > A real-time earthquake and fire detection system built on the ESP32, using a machine learning-inspired multi-feature classification model running on-device. Continuously analyzes seismic sensor data to detect hazardous events, trigger automatic power cutoff, and dispatch SMS alerts.
 
