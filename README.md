@@ -18,7 +18,6 @@
 - [OLED Display Screens](#oled-display-screens)
 - [Serial Monitor Output](#serial-monitor-output)
 - [Getting Started](#getting-started)
-- [Authors](#authors)
 
 ---
 
